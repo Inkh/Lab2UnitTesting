@@ -2,7 +2,7 @@
 
 namespace ATM
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -120,7 +120,7 @@ namespace ATM
         /// <param name="input"></param>
         /// <param name="balance"></param>
         /// <returns></returns>
-        static int Deposit(string input, int balance)
+        public static int Deposit(string input, int balance)
         {
             try
             {
@@ -139,7 +139,7 @@ namespace ATM
         /// <param name="input"></param>
         /// <param name="balance"></param>
         /// <returns></returns>
-        static int Withdraw(string input, int balance)
+        public static int Withdraw(string input, int balance)
         {
             try
             {

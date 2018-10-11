@@ -1,0 +1,17 @@
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\Lab2-Test.deps.json
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\Lab2-Test.runtimeconfig.json
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\Lab2-Test.runtimeconfig.dev.json
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\Lab2-Test.dll
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\Lab2-Test.pdb
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\ATM.dll
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\bin\Debug\netcoreapp2.1\ATM.pdb
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\obj\Debug\netcoreapp2.1\Lab2-Test.csprojAssemblyReference.cache
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\obj\Debug\netcoreapp2.1\Lab2-Test.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\obj\Debug\netcoreapp2.1\Lab2-Test.AssemblyInfoInputs.cache
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\obj\Debug\netcoreapp2.1\Lab2-Test.AssemblyInfo.cs
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\obj\Debug\netcoreapp2.1\Lab2-Test.csproj.CopyComplete
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\obj\Debug\netcoreapp2.1\Lab2-Test.dll
+C:\Users\Jeff\source\repos\Lab2UnitTesting\ATM\Lab2-Test\obj\Debug\netcoreapp2.1\Lab2-Test.pdb

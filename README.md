@@ -8,7 +8,7 @@ On entry, users will be prompted by 3 options: View Balance, Deposit, and Withdr
 
 Open the project with Visual Studio, and run (Ctrl + F5). 
 
-Alternatively, you can navigate to project folder with PowerShell, then do the following.
+Alternatively, you can navigate to project directory containing Program.cs file with PowerShell, then do the following.
 
  ```
  dotnet run

@@ -94,7 +94,7 @@ namespace ATM
                 }
                 finally
                 {
-                    Console.WriteLine($"Your current balance is now {balance}");
+                    Console.WriteLine($"Your current balance is currently ${balance}");
                     Console.WriteLine("Would you like to perform another transaction? [Yes] / [No]");
                     string userAction = Console.ReadLine();
                     switch (userAction.ToLower())

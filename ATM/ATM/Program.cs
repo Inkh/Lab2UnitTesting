@@ -21,8 +21,8 @@ namespace ATM
                 restart = false;
                 Console.WriteLine("Welcome to the ATM! What would you like to do today?");
                 Console.WriteLine("[1] View Balance");
-                Console.WriteLine("[2]. Withdraw Money");
-                Console.WriteLine("[3]. Deposit Money");
+                Console.WriteLine("[2]. Deposit Money");
+                Console.WriteLine("[3]. Withdraw Money");
                 Console.WriteLine("[4]. Exit");
                 bool flag = true;
                 while (flag)
@@ -43,6 +43,10 @@ namespace ATM
                                         restart = true;
                                         break;
                                     case "no":
+                                        break;
+                                    default:
+                                        Console.WriteLine("Did not understand. Redirecting you back to menu...");
+                                        restart = true;
                                         break;
                                 }
                                 break;
@@ -74,9 +78,50 @@ namespace ATM
                                         break;
                                     case "no":
                                         break;
+                                    default:
+                                        Console.WriteLine("Did not understand. Redirecting you back to menu...");
+                                        restart = true;
+                                        break;
                                 }
                                 break;
                             case 3:
+                                error = true;
+                                Console.WriteLine($"You currently have ${balance}");
+                                Console.WriteLine("How much would you like to withdraw?");
+                                while (error)
+                                {
+                                    error = false;
+                                    try
+                                    {
+                                        balance = Withdraw(Console.ReadLine(), balance);
+                                    }
+                                    catch (FormatException)
+                                    {
+                                        Console.WriteLine("That was not a number. Please try again.");
+                                        error = true;
+                                    }
+
+                                    catch (ArgumentException e)
+                                    {
+                                        Console.WriteLine(e.Message);
+                                        error = true;
+                                    }
+                                }
+                                Console.WriteLine($"Your current balance is now {balance}");
+                                Console.WriteLine("Would you like to perform another transaction? [Yes] / [No]");
+                                userAction = Console.ReadLine();
+                                switch (userAction.ToLower())
+                                {
+                                    case "yes":
+                                        restart = true;
+                                        break;
+                                    case "no":
+                                        break;
+                                    default:
+                                        Console.WriteLine("Did not understand. Redirecting you back to menu...");
+                                        restart = true;
+                                        break;
+                                }
                                 break;
                             case 4:
                                 break;
@@ -110,6 +155,25 @@ namespace ATM
             return balance;
         }
 
+        static int Withdraw(string input, int balance)
+        {
+            try
+            {
+                if (balance > int.Parse(input))
+                {
+                    balance -= int.Parse(input);
+                }
+                else
+                {
+                    throw new ArgumentException("You have insufficient funds for that amount. Please try again: ");
+                }
+            }
+            catch (FormatException)
+            {
+                throw;
+            }
+            return balance;
+        }
 
     }
 }

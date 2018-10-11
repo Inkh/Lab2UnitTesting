@@ -24,7 +24,7 @@ namespace ATM
             {
                 restart = false;
                 Console.WriteLine("Welcome to the ATM! What would you like to do today?");
-                Console.WriteLine("[1] View Balance");
+                Console.WriteLine("[1]. View Balance");
                 Console.WriteLine("[2]. Deposit Money");
                 Console.WriteLine("[3]. Withdraw Money");
 
@@ -113,6 +113,7 @@ namespace ATM
             }
            
         }
+
         /// <summary>
         /// Handles the deposit action of ATM. Will add to balance if format is valid. Otherwise, throw Exception to parent block.
         /// </summary>
